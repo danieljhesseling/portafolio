@@ -152,7 +152,6 @@ Brown: #763226
 
 .navbar-link{
     color:beige;
-    padding: 0.4rem;
     margin: 0 2.4rem;
     font-weight: 200;
     text-decoration: none;
@@ -450,23 +449,62 @@ i{
         align-items: center;
         align-self: center;
         align-content: center;
-        
+    }
+
+    .navbar-link{
+        margin: 0 .5rem;
+    }
+
+    .logo{
+        padding-right: 2vw;
+        padding-left: 1vw;
+    }
+
+}
+/*
+@media (max-width: 900px) {
+
+    .logo{
+        height:5vh;
+        padding-left: 3vw;
+        padding-right: 3vw;
+    }
+    
+    .navbar-link{
+        padding-left: 3vw;
+        margin: 0 3vw 1vh 1vh;
     }
 }
 
-@media (max-width: 900px) {
-    
-}
 
 
 @media (max-width: 700px) {
+
     .progress-bars{
         width: auto;
     }
     .progress-bar{
         max-width: 80vw;
     }
+
+    .logo{
+        padding-left: 1vw;
+        padding-right: 1vw;
+    }
+
+    .navbar-link{
+        font-size: 3vw;
+        padding-left: 1vw;
+    }
 }
-
-
+*/
+@media (max-width: 500px) {
+    .section-1-heading,
+    .section-2-heading,
+    .section-3-heading,
+    .section-4-heading,
+    .section-5-heading{
+        max-width: 40vw;
+    }
+}
 /* End of responsible section */
